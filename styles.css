@@ -1,0 +1,96 @@
+/* Header Styling */
+
+.header {
+    background-color:bisque;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+/* Search Box Styling */
+.search-form {
+    margin-top: 10px;
+}
+
+.search-form input{
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+}
+
+.search-form button {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.search-form button:hover {
+    background-color: purple;
+}
+
+table thead{
+    background-color: lightblue;
+}
+
+ul li{
+    width: 500px;
+    border: 3px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(112, 200, 196);
+}
+
+/* Contact Form Styles */
+.contact-form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+
+.contact-form input,.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+footer{
+    margin-top: 100px;
+    text-align: center;
+}
