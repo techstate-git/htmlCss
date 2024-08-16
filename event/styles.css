@@ -1,0 +1,71 @@
+/* Basic CSS Styling */
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header, nav, section, footer {
+    padding: 20px;
+    margin: 20px;
+}
+.header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    height: 110px;
+}
+.header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+.header p {
+    font-size: 1.2em;
+    margin-bottom: 50px;
+}
+.header .registerBtn {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.header .registerBtn:hover{
+    background-color: blue;
+}
+
+.testimonials {
+    background-color: white;
+}
+.testimonial-review {
+    font-style: italic;
+}
+.testimonial-author {
+    font-weight: bold;
+}
+#speakers ul{
+list-style-type: none;
+}
+.schedule-table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.schedule-table thead{
+    background-color: lightblue;
+}
+a{
+    text-decoration: none;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+a:hover{
+    color: purple;
+}
