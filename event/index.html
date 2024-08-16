@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="header" class="header">
+        <h1>Welcome to TechState Infosession</h1>
+        <p>Join us for an exciting event on the 15th August</p>
+        <a href="#register" class="registerBtn">Register Now</a>
+    </div>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#speakers">Speakers</a>
+        <a href="#register">Register</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#footer">Scroll bottom</a>
+    </nav>
+
+    <section id="about">
+        <h2>About the Event</h2>
+        <p>Infosession is an Educational event where professionals and enthusiasts gather to share knowledge, network, and grow together.</p>
+        <p><strong>Location:</strong> 1400 E Toughy Ave, Des Plaines</p>
+        <p><strong>Date:</strong> 15th of August</p>
+    </section>
+
+    <section id="schedule">
+        <h2>Event Schedule</h2>
+        <table class="schedule-table" border="1">
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Session</th>
+                    <th>Speaker</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>09:00 AM</td>
+                    <td>Opening Remarks</td>
+                    <td>John Doe</td>
+                </tr>
+                <tr>
+                    <td>10:00 AM</td>
+                    <td>Keynote: The Future of Technology</td>
+                    <td>Jane Smith</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="speakers">
+        <h2>Meet Our Speakers</h2>
+        <p>Our event features industry leaders and innovators. Learn more about them:</p>
+        <ul>
+            <li><strong>John Doe</strong> - CEO at TechCorp</li>
+            <li><strong>Jane Smith</strong> - CTO at Innovate Inc.</li>
+            <!-- Add more speakers here -->
+        </ul>
+    </section>
+
+    <section id="register">
+        <h2>Register for the Event</h2>
+        <form action="[Form Action URL]" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="ticket">Ticket Type:</label>
+            <select id="ticket" name="ticket" required>
+                <option value="standard">Standard</option>
+                <option value="vip">VIP</option>
+            </select>
+
+            <button type="submit">Register Now</button>
+        </form>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Attendees Say</h2>
+        <p class="testimonial-review">"The event was fantastic! I learned so much and made great connections."</p>
+        <p class="testimonial-author">Alex Johnson</p>
+
+        <p class="testimonial-review">"A well-organized event with top-notch speakers. Highly recommended!"</p>
+        <p class="testimonial-author">Emily Davis</p>
+    </section>
+
+    <footer id="footer">
+        <p>&copy; 2024 TechState Infosession. All Rights Reserved.</p>
+        <a href="#header">Scroll up</a>
+    </footer>
+    <script>
+        document.addEventListener('contextmenu', event => event.preventDefault());
+        document.addEventListener('keydown', function(event) {
+        if (event.key === 'F12' || (event.ctrlKey && event.shiftKey && event.key === 'I')) {
+            event.preventDefault();
+        }
+    });
+    </script>    
+</body>
+</html>
